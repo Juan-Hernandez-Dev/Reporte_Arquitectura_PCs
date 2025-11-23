@@ -1,0 +1,20 @@
+PRÁCTICA 3: Contador Hexadecimal en Display 7 Segmentos
+=========================================================
+
+Objetivo:
+Mostrar una secuencia de dígitos hexadecimales (0-F) en un display de 7 segmentos
+con lógica inversa (ánodo común), aprendiendo a codificar caracteres para este
+tipo de dispositivos.
+
+Planteamiento:
+Configurar el Puerto A como salida para controlar el display
+Almacenar en registros los códigos de 7 segmentos para cada dígito hexadecimal
+Implementar la lógica inversa necesaria para displays de ánodo común
+Mostrar secuencialmente los dígitos del 0 al F
+Incluir retardos entre cada dígito para visualización adecuada
+Repetir la secuencia de forma continua
+
+Aplicación:
+Este programa permite visualizar números hexadecimales en un display físico,
+fundamental para crear interfaces de usuario en sistemas embebidos como
+contadores, relojes o indicadores numéricos.

@@ -1,0 +1,21 @@
+PRÁCTICA 7: Manejo de Interrupción Externa INT0
+================================================
+
+Objetivo:
+Implementar un sistema de interrupciones externas que permita cambiar el
+comportamiento del programa cuando se detecta un evento en el pin INT0.
+
+Planteamiento:
+Configurar vectores de interrupción (Reset e INT0)
+Configurar puertos A y B como salida, puerto D como entrada con pull-ups
+Configurar INT0 para detectar flancos descendentes
+Habilitar la interrupción INT0 y las interrupciones globales (SEI)
+Implementar un contador 0-9 como programa principal
+Crear una rutina de servicio de interrupción (ISR) que muestre letras A-F
+Preservar y restaurar el contexto de registros en la ISR
+Retornar correctamente al programa principal después de la interrupción
+
+Aplicación:
+Las interrupciones son fundamentales para sistemas que deben responder a eventos
+externos en tiempo real, como botones de emergencia, sensores o comunicaciones.
+Esta práctica enseña la base del procesamiento asíncrono de eventos.

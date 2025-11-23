@@ -1,0 +1,20 @@
+PRÁCTICA 6: Contador 0-9 y A-Z en Display 7 Segmentos
+=======================================================
+
+Objetivo:
+Utilizar tablas almacenadas en memoria de programa para mostrar una secuencia
+extendida de caracteres (dígitos 0-9 y letras A-Z) en un display de 7 segmentos.
+
+Planteamiento:
+Configurar el Stack Pointer y el Puerto A como salida
+Crear una tabla en memoria de programa con códigos de 7 segmentos
+Usar la instrucción LPM (Load Program Memory) para leer datos de la tabla
+Implementar un índice que recorra secuencialmente la tabla
+Manejar el acarreo (carry) al calcular direcciones de memoria
+Mostrar 36 caracteres diferentes (0-9, A-Z) con retardo entre cada uno
+Reiniciar automáticamente la secuencia al finalizar
+
+Aplicación:
+Este programa demuestra el uso eficiente de memoria de programa para almacenar
+datos constantes, técnica esencial cuando se trabaja con tablas de conversión,
+mensajes o patrones predefinidos en sistemas embebidos.

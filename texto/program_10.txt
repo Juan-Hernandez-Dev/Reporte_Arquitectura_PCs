@@ -1,0 +1,23 @@
+PRÁCTICA 10: Lectura de Teclado Matricial 4x4
+===============================================
+
+Objetivo:
+Implementar un sistema de lectura de teclado matricial 4x4 que detecte qué tecla
+fue presionada y muestre el valor correspondiente en un display de 7 segmentos.
+
+Planteamiento:
+Configurar Puerto A como salida para el display
+Configurar Puerto C con nibble alto como salida (filas) y nibble bajo como entrada (columnas)
+Activar resistencias pull-up en las columnas
+Implementar escaneo secuencial de filas
+Detectar qué columna está activa cuando se presiona una tecla
+Implementar retardo anti-rebote de 20ms para eliminar ruido mecánico
+Calcular la posición en la tabla según fila y columna detectadas
+Mostrar el dígito hexadecimal correspondiente en el display
+Mantener el escaneo continuo del teclado
+
+Aplicación:
+Los teclados matriciales son interfaces de entrada comunes en sistemas embebidos
+como cerraduras electrónicas, cajeros automáticos, teléfonos, calculadoras y
+sistemas de control industrial. Esta práctica enseña la técnica fundamental de
+escaneo matricial y manejo de entradas digitales con anti-rebote.

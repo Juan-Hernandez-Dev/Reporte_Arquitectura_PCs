@@ -1,0 +1,22 @@
+PRÁCTICA 9: Multiplexado de 4 Displays de 7 Segmentos
+=======================================================
+
+Objetivo:
+Implementar la técnica de multiplexado temporal para controlar múltiples displays
+de 7 segmentos usando un número reducido de pines del microcontrolador.
+
+Planteamiento:
+Configurar Puerto A para controlar los segmentos (compartidos por todos los displays)
+Configurar Puerto B para controlar qué display está activo
+Mostrar la palabra "CArS" en 4 displays diferentes
+Activar cada display secuencialmente por un tiempo muy breve
+Implementar retardos precisos para evitar parpadeo visible
+Crear subrutinas independientes para cada display
+Mantener el ciclo de multiplexado de forma continua
+
+Aplicación:
+El multiplexado es una técnica esencial para reducir el número de pines necesarios
+al controlar múltiples displays. Se usa en relojes digitales, paneles de información,
+instrumentos de medición y cualquier dispositivo con múltiples indicadores numéricos.
+La persistencia visual hace que parezca que todos los displays están encendidos
+simultáneamente.

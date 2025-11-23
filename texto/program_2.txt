@@ -1,0 +1,18 @@
+PRÁCTICA 2: Desplazamiento de Bit en Puerto A
+==============================================
+
+Objetivo:
+Implementar un efecto visual de desplazamiento de un bit activo a través de los
+8 bits del Puerto A, creando un patrón de luz secuencial.
+
+Planteamiento:
+Configurar el Puerto A como salida
+Inicializar 8 registros con patrones de un solo bit activo (desde bit 7 hasta bit 0)
+Mostrar secuencialmente cada patrón en el Puerto A
+Implementar retardos entre cada cambio para hacer visible el desplazamiento
+Crear un bucle infinito que repita la secuencia continuamente
+
+Aplicación:
+Este programa simula el efecto de una luz que se mueve de derecha a izquierda,
+similar a los LEDs secuenciales en dispositivos electrónicos. Es útil para
+entender el control temporal y la manipulación de bits individuales.

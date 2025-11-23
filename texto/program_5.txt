@@ -1,0 +1,20 @@
+PRÁCTICA 5: Demostración de Operaciones con Stack
+==================================================
+
+Objetivo:
+Comprender el funcionamiento del stack (pila) y las operaciones PUSH y POP para
+almacenar y recuperar datos temporalmente, siguiendo el principio LIFO
+(Last In, First Out).
+
+Planteamiento:
+Inicializar correctamente el Stack Pointer (SPH y SPL)
+Cargar valores de prueba en varios registros (R16-R19)
+Usar PUSH para guardar estos valores en el stack
+Demostrar que se pueden guardar valores múltiples veces
+Usar POP para recuperar los valores en orden inverso
+Observar cómo los datos se recuperan siguiendo el principio LIFO
+
+Aplicación:
+El stack es fundamental para preservar el contexto de registros al llamar
+subrutinas o manejar interrupciones. Esta práctica enseña la base para
+programación estructurada y manejo de interrupciones en microcontroladores.

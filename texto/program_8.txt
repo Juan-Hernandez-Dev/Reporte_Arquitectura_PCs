@@ -1,0 +1,21 @@
+PRÁCTICA 8: Contador Decimal 0-99
+==================================
+
+Objetivo:
+Implementar un contador de dos dígitos que muestre unidades y decenas en
+displays de 7 segmentos separados, manejando el desbordamiento decimal.
+
+Planteamiento:
+Configurar dos puertos como salida (Puerto A para unidades, Puerto B para decenas)
+Mantener dos contadores independientes (unidades y decenas)
+Leer códigos de display desde una tabla usando LPM
+Implementar lógica de desbordamiento: cuando unidades llega a 10, reiniciar
+  a 0 e incrementar decenas
+Cuando decenas llega a 10, reiniciar todo el contador a 00
+Sincronizar la visualización de ambos dígitos
+Incluir retardos para visualización adecuada
+
+Aplicación:
+Este programa es la base para crear contadores, cronómetros, relojes digitales
+o cualquier sistema que necesite mostrar valores numéricos de múltiples dígitos
+en displays de 7 segmentos.

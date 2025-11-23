@@ -1,0 +1,19 @@
+PRÁCTICA 1: Lectura de Puerto B y Escritura en Puerto A
+=========================================================
+
+Objetivo:
+Aprender a configurar puertos de entrada y salida en el microcontrolador ATmega8515,
+y realizar operaciones básicas de lectura y escritura de datos entre puertos.
+
+Planteamiento:
+Configurar el Puerto B como entrada digital
+Configurar el Puerto A como salida digital
+Activar las resistencias pull-up internas del Puerto B
+Leer continuamente los datos presentes en el Puerto B
+Reflejar inmediatamente esos datos en el Puerto A
+Crear un bucle infinito que mantenga esta operación de forma continua
+
+Aplicación:
+Este programa permite que cualquier señal o patrón de bits aplicado al Puerto B
+se replique automáticamente en el Puerto A, funcionando como un espejo digital.
+Es útil para entender el flujo básico de datos en microcontroladores.

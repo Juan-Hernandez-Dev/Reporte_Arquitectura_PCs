@@ -1,0 +1,20 @@
+PRÁCTICA 4: Desplazamiento Bidireccional de Bit
+================================================
+
+Objetivo:
+Implementar un desplazamiento de bit que cambia de dirección automáticamente,
+utilizando instrucciones de desplazamiento lógico y subrutinas con retardo.
+
+Planteamiento:
+Configurar el Stack Pointer para permitir el uso de subrutinas
+Configurar el Puerto A como salida
+Implementar desplazamiento de derecha a izquierda usando LSL (Logical Shift Left)
+Implementar desplazamiento de izquierda a derecha usando LSR (Logical Shift Right)
+Detectar cuando el bit llega al extremo y cambiar automáticamente de dirección
+Crear una subrutina de retardo temporal reutilizable
+Mantener el efecto de forma continua
+
+Aplicación:
+Este programa crea un efecto de "rebote" visual, similar a indicadores de nivel
+o animaciones en paneles LED. Demuestra el uso de operaciones de desplazamiento
+y la estructura de programación con subrutinas.
