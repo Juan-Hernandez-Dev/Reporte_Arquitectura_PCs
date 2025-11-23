@@ -1,0 +1,10 @@
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_01.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_02.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_03.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_04.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_05.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_06.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_07.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_08.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_09.asm
+https://github.com/Juan-Hernandez-Dev/Reporte_Arquitectura_PCs/blob/main/codigo/program_10.asm
